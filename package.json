@@ -1,8 +1,8 @@
 {
   "name": "mx.edu.utxj.ti.awi4.practica3",
   "version": "1.0.0",
-  "description": "Manejo de Sesiones en NoJS y Express",
-  "main": "index.js",
+  "description": "Manejo de Sesiones en NodeJS y Express",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/JFFA25/Practica03-230417#readme",
   "dependencies": {
-    "expres": "^0.0.5",
-    "express": "^4.21.2"
-  }
+    "express": "^4.21.2",
+    "express-session": "^1.17.1",
+    "moment-timezone": "^0.5.34"
+  },
+  "type": "module"
 }
